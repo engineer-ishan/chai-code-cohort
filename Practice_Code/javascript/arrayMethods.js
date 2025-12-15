@@ -1,4 +1,4 @@
-const arr = [1,2,3,4,5,6,7,8,9]
+// const arr = [1,2,3,4,5,6,7,8,9]
 
 //  for of loop
 // for(let element of arr)
@@ -20,7 +20,12 @@ const arr = [1,2,3,4,5,6,7,8,9]
 // console.log(newArr);
 
 // map
-const mapArr = arr.map((num)=>{
-    return num*10
-})
-console.log(mapArr);
+// const mapArr = arr.map((num)=>{
+//     return num*10
+// })
+// console.log(mapArr);
+
+const arr = [1,2,3,4,5,6]
+const newArr = arr.splice(6,0,7,8,9)
+console.log(arr);
+// console.log(newArr);
