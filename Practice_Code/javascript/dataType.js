@@ -31,4 +31,7 @@
 // let a = 1.2e-3
 // console.log(a);
 
+let str = "11a"
+let num = str-1
+console.log(num);
 

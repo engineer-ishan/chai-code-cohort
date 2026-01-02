@@ -42,4 +42,9 @@ function login(username, password){
     else 
         console.log("Invalid credentials");
 }
-login("admin", "123")
+// login("admin", "123")
+
+let x = 6
+if (x === 5 || 7 || 10 || 20) {
+  console.log(x);
+}
