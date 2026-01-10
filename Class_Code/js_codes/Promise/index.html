@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch promise</title>
+</head>
+<body>
+    <ul id="myList"></ul>
+    <script>
+        let myList = document.getElementById("myList")
+        fetch('https://api.freeapi.app/api/v1/public/books/book/random')
+            .then(response => response.json())
+            .then((data)=> {
+                const li = document.createElement('li')
+                li.innerText = data.data.volumeInfo.title
+                myList.appendChild(li)
+            })
+    </script>
+</body>
+</html>
