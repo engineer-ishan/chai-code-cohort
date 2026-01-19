@@ -34,9 +34,9 @@
 
 // const names = ["ram", "shyam", "ram", "gopal", "ram","ishan"]
 
-// const freq = names.reduce((obj, name) =>{
-//     obj[name] = (obj[name] || 0) + 1
-//     return obj
+// const freq = names.reduce((acc,name)=>{
+//     acc[name] = (acc[name]||0) + 1
+//     return acc
 // },{})
 // console.log(freq);
 
@@ -45,24 +45,27 @@
 //   { title: "Rice", amount: 50, type: "food" },
 //   { title: "Internet", amount: 100, type: "utility" }
 // ]
-// let total = expenses.reduce((acc, expense)=>{
+// let total = expenses.reduce((acc, expense) => {
 //     acc[expense.type] = (acc[expense.type] || 0) + expense.amount
 //     return acc
-// },{})
+// }, {})
 // console.log(total);
 
-// let nums = [1,2,3]
-// let squared = nums.reduce((acc, num) => {
+// let nums = [1,2,3,4,5]
+// let squared = nums.reduce((acc, num)=> {
 //     acc.push(num*num)
 //     return acc
 // },[])
 // console.log(squared);
 
 // let arr = [1,2,3,4,5,6,7,8,9,10]
-// let evenItem = arr.reduce((acc, item)=>{
-//     if(item%2==1)
-//         acc.push(item)
+// let evenItem = arr.reduce((acc, num)=>{
+//     if(num%2==0)
+//         acc.push(num)
 //     return acc
 // },[])
 // console.log(evenItem);
 
+// const str = "ishan, chandrakar"
+// let arr = Array.of(str)
+// console.log(arr);
