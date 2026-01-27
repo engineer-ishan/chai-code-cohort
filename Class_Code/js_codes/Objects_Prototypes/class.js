@@ -10,4 +10,4 @@ class Person{
 const p1 = new Person('piyus','garg')
 const p2 = new Person('hitesh','choudhary')
 
-console.log(p2.getFullName());
+console.log(p1.getFullName());
