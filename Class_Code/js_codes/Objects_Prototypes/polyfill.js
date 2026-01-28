@@ -71,14 +71,15 @@ const arr = [1,2,3,4,5,6,7,8,9,10]
 // max function
 // signature - return max number in the array
 
-if(!Array.prototype.max){
-    Array.prototype.max = function(){
-        let maximum = -Infinity
-        for(let num of this)
-            if(num>maximum)
-                maximum = num
-        return maximum
-    }
-}
-const maxOfArray = arr.max()
-console.log(maxOfArray);
+// if(!Array.prototype.max){
+//     Array.prototype.max = function(){
+//         let maximum = -Infinity
+//         for(let num of this)
+//             if(num>maximum)
+//                 maximum = num
+//         return maximum
+//     }
+// }
+// const maxOfArray = arr.max()
+// console.log(maxOfArray);
+
